@@ -1,8 +1,9 @@
-var A = 10;
-var B = 5;
+"use strict";
+const A = 10;
+const B = 5;
 if (A > B) {
-    console.log("".concat(A, " es mayor que ").concat(B));
+    console.log(`${A} es mayor que ${B}`);
 }
 else {
-    console.log("".concat(A, " es menor que ").concat(B));
+    console.log(`${A} es menor que ${B}`);
 }

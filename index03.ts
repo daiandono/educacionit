@@ -46,3 +46,5 @@ personas.forEach((x: Persona)=>{
 for(const x of personas){
     console.log(x.nombre+" "+x.edad+" Afiliado: "+(x.afiliado?"Si":"No"))
 }
+
+//comentario para una prueba de git

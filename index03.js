@@ -27,3 +27,6 @@ for (let i = 0; i < personas.length; i++) {
 personas.forEach((x) => {
     console.log(x.nombre + " " + x.edad + " Afiliado: " + (x.afiliado ? "Si" : "No"));
 });
+for (const x of personas) {
+    console.log(x.nombre + " " + x.edad + " Afiliado: " + (x.afiliado ? "Si" : "No"));
+}
